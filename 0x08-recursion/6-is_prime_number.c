@@ -4,8 +4,10 @@
  * @n: number
  * Return: 0 if not prime, 1 otherwise
  */
-int is_prime_number(int n, int i)
+int is_prime_number(int n,)
 {
+	int i;
+
 	if (n < 2)
 		return (0);
 	if (n % i == 0)
