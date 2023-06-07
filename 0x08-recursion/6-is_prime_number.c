@@ -4,7 +4,7 @@
  * @n: number
  * Return: 0 if not prime, 1 otherwise
  */
-int is_prime_number(int n,)
+int is_prime_number(int n)
 {
 	int i;
 
