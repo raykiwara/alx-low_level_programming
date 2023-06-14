@@ -10,8 +10,8 @@ int main(int argc, char *argv[])
 {
 	unsigned long int i;
 	int j, k;
-	int cents[] = {25, 10, 5, 2};
-	
+	int cents[] = {25, 10, 5, 2, 1};
+
 	if (argc != 2)
 	{
 		printf("Error\n");
