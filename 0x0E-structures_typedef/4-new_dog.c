@@ -28,11 +28,12 @@ int _strlen(char *s)
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
+	int j = 0;
 
-	for (i = 0; src[i]; i++)
-		dest[i] = src[i];
-	dest[i] = '\0';
+	for (j = 0; src[j]; j++)
+		dest[j] = src[j];
+
+	dest[j] = '\0';
 	return (dest);
 }
 /**
