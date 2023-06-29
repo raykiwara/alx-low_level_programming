@@ -74,7 +74,7 @@ char **strtow(char *str)
 
 		letters = wordlength(str + i);
 
-		s[w] = malloc((sizeof(char) * letters + i));
+		s[w] = malloc(sizeof(char) * (letters + 1));
 
 		if (s[w] == NULL)
 		{
