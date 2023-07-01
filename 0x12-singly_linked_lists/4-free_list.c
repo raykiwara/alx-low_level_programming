@@ -2,7 +2,7 @@
 #include "lists.h"
 /**
  * free_list - frees list_t
- * @head; pointer to the first node
+ * @head: pointer to the first node
  */
 void free_list(list_t *head)
 {
