@@ -3,14 +3,13 @@
 
 /**
  * print_list - prints all elements of a list
- * @h - pointer to list
+ * @h: pointer to list
  * Return: elements of the list
- *
  */
 
 size_t print_list(const list_t *h)
 {
-	int i;
+	int i = 0; 
 
 	while (h)
 	{
